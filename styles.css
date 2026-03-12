@@ -1,0 +1,37 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+li:hover {
+  background-color: lightslategray;
+}
+
+a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: white;
+}
+
+#General,
+h2 {
+  padding-top: 2em;
+}
+
+p {
+  font-size: large;
+}
