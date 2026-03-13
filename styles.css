@@ -1,9 +1,13 @@
+body {
+  background-color: rgb(236, 190, 142);
+}
+
 nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: black;
+  background-color: cadetblue;
 }
 
 ul {
@@ -37,9 +41,13 @@ p {
 }
 
 .lower {
-  color: dodgerblue;
+  font-size: large;
+  font-weight: bold;
+  color: darkslateblue;
 }
 
 .upper {
-  color: forestgreen;
+  font-size: large;
+  font-weight: bold;
+  color: darkgreen;
 }
