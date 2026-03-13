@@ -12,11 +12,11 @@ ul {
   padding-left: 0;
 }
 
-li {
+#navBar {
   display: inline-block;
 }
 
-li:hover {
+#navBar:hover {
   background-color: lightslategray;
 }
 
@@ -34,4 +34,12 @@ h2 {
 
 p {
   font-size: large;
+}
+
+.lower {
+  color: dodgerblue;
+}
+
+.upper {
+  color: forestgreen;
 }

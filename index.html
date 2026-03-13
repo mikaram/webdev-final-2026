@@ -11,10 +11,10 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Previous Work</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <li id="navBar"><a href="#">About</a></li>
+          <li id="navBar"><a href="#">Previous Work</a></li>
+          <li id="navBar"><a href="#">Projects</a></li>
+          <li id="navBar"><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -38,12 +38,56 @@
     </section>
     <section id="Previous Work" , style="display: none">
       <h2>Previous Work</h2>
+      <h3>Computer Science Classes taken</h3>
+      <ul>
+        <li class="lower">CS162: Intro To Computer Science</li>
+        <li class="lower">CS163: Data Structures</li>
+        <li class="lower">CS205: Systen Programming and Arch</li>
+        <li class="lower">CS250: Discrete Structures I</li>
+        <li class="lower">CS251: Discrete Structures II</li>
+        <li class="upper">
+          CS302: Programming Methods and Software Implementation
+        </li>
+        <li class="upper">CS314: Elements of Software Engineering</li>
+        <li class="upper">CS333: Intro to Operating Systems</li>
+        <li class="upper">CS350: Algorithms & Complexity</li>
+        <li class="upper">CS358: Principles of Programming Languages</li>
+        <li class="upper">CS448: Virtual Reality</li>
+        <li class="upper">CS463: Intro to Web Development</li>
+        <li class="upper">CS486: Intro to Database Management Systems</li>
+      </ul>
     </section>
     <section id="Projects" , style="display: none">
       <h2>Projects</h2>
     </section>
     <section id="Contact" , style="display: none">
       <h2>Contact</h2>
+      <form method="POST" id="form">
+        <input
+          type="hidden"
+          name="access_key"
+          value="3109a910-1eb4-4372-ae16-9d862769f665"
+        />
+        <input
+          type="hidden"
+          name="subject"
+          value="New Submission from Web3Forms"
+        />
+        <label for="email">Email</label>
+        <input type="email" name="email" required />
+        <br />
+        <br />
+        <label for="name">Name</label>
+        <input type="text" name="name" required />
+        <br />
+        <br />
+        <label for="message">Message</label>
+        <textarea name="message" required></textarea>
+        <br />
+        <br />
+        <button type="submit">Submit</button>
+        <div id="result"></div>
+      </form>
     </section>
   </body>
 </html>
