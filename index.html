@@ -118,16 +118,39 @@
           name="subject"
           value="New Submission from Web3Forms"
         />
-        <label for="email">Email</label>
-        <input type="email" name="email" required />
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="email@domain"
+            required
+          />
+        </div>
         <br />
         <br />
-        <label for="name">Name</label>
-        <input type="text" name="name" required />
+        <div>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Full Name"
+            required
+          />
+        </div>
         <br />
         <br />
-        <label for="message">Message</label>
-        <textarea name="message" required></textarea>
+        <div>
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Enter message here"
+            required
+          ></textarea>
+        </div>
         <br />
         <br />
         <button type="submit">Submit</button>
